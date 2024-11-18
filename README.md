@@ -1,5 +1,11 @@
 # Simple flask example
 
+### Install dependencies
+
+```
+pip install -r requirements.txt --no-cache-dir
+```
+
 ### Run server
 
 ```
@@ -10,4 +16,24 @@ flask --app flaskr run --debug
 
 ```
 flask --app flaskr init-db
+```
+
+### Tests
+
+Run test files in /tests
+
+```
+pytest
+```
+
+Measure the code coverage of tests
+
+```
+coverage run -m pytest
+```
+
+Simple coverage report
+
+```
+coverage report
 ```
