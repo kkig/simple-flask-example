@@ -37,3 +37,16 @@ Simple coverage report
 ```
 coverage report
 ```
+
+**See report in html**
+Generate report in htmlcov/ directory.
+
+```
+coverage html
+```
+
+Cli to see it in browser.
+
+```
+htmlcov/index.html
+```
